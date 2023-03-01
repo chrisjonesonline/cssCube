@@ -1,17 +1,17 @@
 @keyframes animate {
 	0% {
-		-webkit-transform: rotate3d(0, 0, 0, 0);
-		transform: rotate3d(0, 0, 0, 0);
+	-webkit-transform: rotate3d(0, 0, 0, 0);
+	transform: rotate3d(0, 0, 0, 0);
 	}
 	100% {
-		-webkit-transform: rotate3d(1, 1, 0, 360deg);
-		transform: rotate3d(1, 1, 0, 360deg);
+	-webkit-transform: rotate3d(1, 1, 0, 360deg);
+	transform: rotate3d(1, 1, 0, 360deg);
 	}
 }
 
 body {
 	background: url("../img/background.webp");
-  background-repeat: repeat;
+	background-repeat: repeat;
 	background-position: center;
 	display: flex;
 	justify-content: center;
@@ -32,6 +32,8 @@ a {
 	transform-style: preserve-3d;
 	-webkit-animation: animate 4s linear infinite;
 	animation: animate 4s linear infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
 }
 
 .face {

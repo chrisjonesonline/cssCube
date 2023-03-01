@@ -14,6 +14,11 @@ body {
 	height: 100vh;
 }
 
+a {
+	color: #56BAEC;
+	text-decoration: none;
+}
+
 .cube {
 	position: relative;
 	width: 200px;
